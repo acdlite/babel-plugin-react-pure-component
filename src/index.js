@@ -6,6 +6,7 @@ export default function ({ Plugin, types: t }) {
     visitor: {
       VariableDeclarator(node) {
         if (
+          node.init &&
           node.init.type === 'CallExpression' &&
           node.init.callee.type === 'Identifier' &&
           node.init.callee.name === 'pure'
