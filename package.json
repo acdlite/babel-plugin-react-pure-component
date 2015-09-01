@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-react-pure-component",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Add displayName to components created with react-pure-component",
   "license": "MIT",
   "main": "lib/index.js",
