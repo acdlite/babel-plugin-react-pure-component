@@ -2,7 +2,7 @@
  * Set the displayName of components created with react-pure-component
  */
 export default function ({ Plugin, types: t }) {
-  return new Plugin('pure-component', {
+  return new Plugin('react-pure-component', {
     visitor: {
       VariableDeclarator(node) {
         if (
